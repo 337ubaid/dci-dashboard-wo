@@ -6,6 +6,11 @@ pages = [
         title="Home",
         icon=":material/home:"
     ),
+    st.Page(
+        "home_stepbystep.py",
+        title="Home Step by Step",
+        icon=":material/home:"
+    ),
 ]
 
 page = st.navigation(pages)
